@@ -1,0 +1,69 @@
+body{
+	text-align: center; /* 文字置中 */
+background: #e5e1cb;
+color: #471687aa; /*文字顏色*/
+padding: 0;
+margin: 0;
+
+}
+/*nav*/
+nav{
+	background: #4a658f90;
+}
+
+nav a{
+	background: #caceba;
+	padding: 35px; 
+	display: inline-block;
+
+	color: #fefae0;
+	text-decoration: none;
+
+}
+
+nav a:hover{
+	background: #bad5fb;
+	color: #4c2c86;
+}
+/*section*/
+section{
+	width: 70%; /*視窗的80%*/
+	margin: auto; /*物件置中*/
+}
+
+
+/* article */
+article{
+	display: inline-block;
+	border:solid 1px rgba(218, 225, 87, 0.693);
+	width: 200px;
+}
+
+article img{
+	width: 80%;
+	border-radius: 50
+
+}
+
+
+article a{
+	display: inline-block;
+	color:#5084dd;
+	background: #e1fda4;
+	text-decoration: none;
+	padding-bottom: 20px;
+}
+
+article a:hover{
+	background: #deeafc;
+	color: #5478b2;
+}
+
+article a:active{
+	color:#fff6f6;
+	background: #ffcdea;
+}
+
+
+
+
